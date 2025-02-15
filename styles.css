@@ -1,0 +1,371 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+    background: #FAF8F2;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.brand h1 {
+    font-size: 150px;
+    margin: 5px;
+    color: #f05623;
+
+}
+
+.brand span {
+    font-size: 25px;
+    color: #937c5b;
+    margin: 15px
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #3d70b2;
+    font-weight: bold;
+}
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #3d70b2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-icon div {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #3d70b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px)
+{ 
+    .nav-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+
+
+.nav-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    max-width: 100%;   
+    margin-left: -30px;
+    flex-direction: column;
+}
+
+.navbar{
+    max-width: 100%;   
+    margin-left: -30px;
+    flex-direction: column;
+}
+
+.navbar {
+        
+        margin-left: -30px;
+        flex-direction: column;
+    }
+
+}
+/* PAGE 3 */
+
+/* Menu Container */
+.menu-container {
+    max-width: 1100px;
+    padding: 50px 20px;
+    overflow-x: hidden;
+}
+
+/* Title Styling */
+.menu-title {
+    font-size: 70px;
+    font-weight: bold;
+    color: #003366;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.menu-title span {
+    font-weight: normal;
+}
+
+/* Section Titles */
+.menu-section {
+    font-size: 26px;
+    font-weight: bold;
+    color: #003366;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Menu Grid */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+/* Menu Item */
+.menu-item {
+    padding: 10px;
+}
+
+/* Dish Title */
+.menu-item h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+/* Dish Description */
+.menu-item p {
+    font-size: 14px;
+    color: #6F5E52;
+}
+
+/* Price */
+.price {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #826C44;
+    margin-top: 10px;
+}
+
+/* Badge Styling (e.g., Hot, Vegan) */
+.badge {
+    display: inline-block;
+    font-size: 12px;
+    background: #EDE7D9;
+    color: #826C44;
+    padding: 4px 8px;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .menu-title {
+        font-size: 50px;
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    .menu-item {
+        text-align: center;
+    }
+
+    .menu-section {
+        text-align: center;
+    }
+
+   .photo-container {
+    width: 0%; /* Adjust as needed */
+    height: 0%;
+   }
+}
+
+
+
+
+.photo-container {
+    position: relative;
+    width: 200px; /* Adjust as needed */
+    margin-left: 800px;
+}
+
+.photo10 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo11 {
+    position: absolute;
+    bottom: 0;
+    left: 50px; /* Moves the background image slightly */
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    left: -20%;
+}
+
+
+/* Footer Container */
+.footer-container {
+    background: #FAF8F2;
+    padding: 50px;
+    max-width: 100%;
+    margin: 2%;
+}
+
+/* Footer Content (Logo, Contact, Follow Us) */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+/* Logo */
+.footer-logo h1 {
+    font-size: 60px;
+    color: #E54B12;
+    margin: 0;
+}
+
+/* Contact & Follow Us */
+.footer-contact h3, .footer-follow h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer-contact p, .footer-follow p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer-contact a, .footer-follow a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Mailing List */
+.mailing-list h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/* Email Input */
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #003366;
+    background: transparent;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+/* Checkbox */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #003366;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Join Button */
+.join-btn {
+    margin-top: 20px;
+    background: #004b8d;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.join-btn:hover {
+    background: #003366;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-logo h1 {
+        font-size: 50px;
+    }
+
+    .footer-contact, .footer-follow {
+        margin-top: 20px;
+    }
+
+    .mailing-list h2 {
+        font-size: 24px;
+    }
+
+    .nav-right {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .photo11 {
+			
+        display: flex;		
+        flex-direction: column;		
+        position: unset;	
+        height: 200px;   		
+        width: 200px;
+        
+        }
+        
+        .photo-container {
+        margin-left: 0px;
+        }
+
+        .photo10 {
+            height: 200px;   		
+            width: 200px;
+        }
+        
+}
